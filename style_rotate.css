@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-color: #235789;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 600px;
+    width: 600px;
+    border-top: 5px solid #F1D302;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin1 1s linear infinite;
+
+}
+
+.inner-inner{
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    border-top: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin2 1s linear infinite;
+}
+
+.inner-most{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border-top: 10px solid #C1292E;
+    border-radius: 50%;
+    animation: spin3 1s linear infinite;
+}
+
+@keyframes spin1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin2{
+    0%{
+        transform: rotate('0deg');
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes spin3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-720deg);
+    }
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-color: #235789;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 500px;
+    width: 500px;
+    border-top: 5px solid #F1D302;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin1 0.9s linear infinite;
+
+}
+
+.inner-inner{
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    border-top: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin2 0.8s linear infinite;
+}
+
+.inner-most{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border-top: 10px solid #C1292E;
+    border-radius: 50%;
+    animation: spin3 0.7s linear infinite;
+}
+
+@keyframes spin1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin2{
+    0%{
+        transform: rotate('0deg');
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes spin3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-720deg);
+    }
+}
